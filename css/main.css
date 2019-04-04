@@ -1,0 +1,39 @@
+body {
+    color: #414141;
+    background-color: #ffffff;
+    font-size: 18px;
+}
+
+h1, h2 {
+    font-family: "Helvetica", "Arial", sans-serif;
+    padding: 5px 5px 5px 5px;
+    border-bottom: 0.5px solid #414141;
+}
+
+h1 {
+    /* This means it's 2x 10px, the base font size */
+    font-size: 2em;
+}
+
+h2 {
+    font-size: 1.5em;
+}
+
+div {
+    box-sizing: border-box; /* Considered best practice - considers the border as box boundaries when applying dimensions. */
+}
+
+a:link {
+    color: rgb(86, 86, 230);
+    text-decoration: none;
+}
+
+a:hover {
+    color: aqua;
+    text-decoration: underline;
+  }
+
+.page {
+    width: 600px;
+    margin: 0 auto;
+}
